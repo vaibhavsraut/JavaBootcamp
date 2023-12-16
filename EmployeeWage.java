@@ -32,7 +32,7 @@ public class EmployeeWage {
             totalWorkingDays++;
 
         }
-
+        
         System.out.println("Your total wage is: " + totalWage);
         System.out.println("Your total hours are: " + totalWorkingHours);
         System.out.println("Your total working days are: " + totalWorkingDays);
