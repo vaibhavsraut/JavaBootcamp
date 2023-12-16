@@ -1,6 +1,5 @@
 import java.util.Random;
 
-
 public class SnakeAndLadder {
     private static final int WINNING_POSITION = 100;
     private static final int START_POSITION = 0;
