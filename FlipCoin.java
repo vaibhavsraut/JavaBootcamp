@@ -12,6 +12,11 @@ public class FlipCoin {
         System.out.println("Enter the number of times to flip a coin:");
         num = sc.nextInt();
 
+        if (num == 0) {
+            System.err.println("Error: N cannot be 0.");
+            return;
+        }
+
         for (int i=0;i<num;i++){
             float coin = new Random().nextFloat();
             if(coin<0.5){
